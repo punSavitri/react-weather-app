@@ -1,10 +1,11 @@
-
+import Weather from './Weather';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <Weather />
     </div>
   );
 }
