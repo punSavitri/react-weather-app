@@ -6,33 +6,12 @@ export default function Weather() {
   return (
     <div className="Weather">
       <header>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container-fluid">
-            <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Lisbon</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">Paris</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">Sydney</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link " href="#" >San Franciso</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <div>
-          <form className="d-flex mt-4">
-            <input type="search" placeholder="Enter a city.." aria-label="Search" className="form-control mx-2" />
-            <button type="submit" className="btn btn-primary">Search</button>
-            <button type="search" className="btn btn-success mx-2">Current</button>
-          </form>
-        </div>
+        <form className="d-flex mt-4">
+          <input type="search" placeholder="Enter a city.." aria-label="Search" className="form-control mx-2" />
+          <button type="submit" className="btn btn-primary">Search</button>
+          <button type="search" className="btn btn-success mx-2">Current</button>
+        </form>
+
       </header>
       <main>
         <div className="weather-info ">
@@ -87,7 +66,7 @@ export default function Weather() {
         </div>
       </main>
       <footer className="mt-5">
-        <small>This project was coded by <a href="https://github.com/punSavitri">Savitri Pun</a> and <a href="https://github.com/punSavitri/react-weather-app.git">is open-sourced on GitHub</a> and <a href="">is hosted on Netlify</a></small>
+        <small>This project was coded by <a href="https://github.com/punSavitri">Savitri Pun</a> and <a href="https://github.com/punSavitri/react-weather-app.git">is open-sourced on GitHub</a> and is hosted on Netlify</small>
       </footer>
     </div>
   )
