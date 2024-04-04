@@ -94,7 +94,7 @@ export default function Weather(props) {
         </div>
       </main>
       <footer className="mt-5">
-        <small>This project was coded by <a href="https://github.com/punSavitri">Savitri Pun</a> and <a href="https://github.com/punSavitri/react-weather-app.git">is open-sourced on GitHub</a> and is hosted on Netlify</small>
+        <small>This project was coded by <a href="https://github.com/punSavitri">Savitri Pun</a> and <a href="https://github.com/punSavitri/react-weather-app.git">is open-sourced on GitHub</a> and <a href="https://react-weather-app2024.netlify.app/">is hosted on Netlify</a></small>
       </footer>
     </div>
   )
